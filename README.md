@@ -42,3 +42,9 @@ The web gallery is a modern React application used to browse the interactions.
 4.  Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 > **Note**: If you scrape new data, make sure to copy the updated `edapi_interactions.json` to `web/public/data.json` so the web app sees it.
+
+### 3. Vercel Deployment
+To deploy this project on Vercel:
+1.  Import the repository.
+2.  **Important**: In the explicit "Root Directory" setting, specify `web`.
+3.  Vercel should automatically detect Vite and set the build settings (Build Command: `npm run build`, Output Directory: `dist`).
